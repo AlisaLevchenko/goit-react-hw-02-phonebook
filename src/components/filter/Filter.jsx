@@ -4,7 +4,7 @@ import s from './Filter.module.css';
 function Filter({ filter, filterForm }) {
   return (
     <form className={s.form}>
-      <lable className={s.lable}>
+      <label className={s.lable}>
         <span className={s.findTitle}>Find contect by name</span>
         <input
           className={s.input}
@@ -16,7 +16,7 @@ function Filter({ filter, filterForm }) {
           title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
           required
         />
-      </lable>
+      </label>
     </form>
   );
 }
